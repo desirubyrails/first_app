@@ -1,0 +1,10 @@
+<%= form_for @drink do |f| %>
+
+	<%= f.label :name %> <br />
+	<%= f.text_field :name %>
+	
+	<%= f.label :size %> <br />
+	<%= f.text_field :size %>
+	
+	<%= f.submit 'Update Drink' %>
+<% end %>
